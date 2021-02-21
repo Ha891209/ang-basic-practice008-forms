@@ -1,0 +1,70 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "Angular Connected",
+      "date": "9/26/2036",
+      "time": "10am",
+      "location": {
+        "address": "1 London Rd",
+        "city": "London",
+        "country": "ENGLAND"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Angular-Netherland",
+      "date": "4/15/2037",
+      "time": "9am",
+      "location": {
+        "address": "127 DTTTTTTT",
+        "city": "Amsterdam",
+        "country": "NETHERLANDS"
+      }
+    },
+    {
+      "id": 3,
+      "name": "ng-conf 2037",
+      "date": "4/15/2037",
+      "time": "9am",
+      "location": {
+        "address": "The Palatial America Hotel",
+        "city": "Salt Lake City",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 4,
+      "name": "UN Angular Summit",
+      "date": "6/10/2037",
+      "time": "8am",
+      "location": {
+        "address": "The UN Angular Center",
+        "city": "New York",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Angular Conference",
+      "date": "12/12/2021",
+      "time": "11am",
+      "location": {
+        "address": "Sidney Rd. 35",
+        "city": "Melbourne",
+        "country": "AUSTRALIA"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Angular Launch Party",
+      "date": "5/5/2021",
+      "time": "9am",
+      "location": {
+        "address": "Memphis Lane 55.",
+        "city": "Tennessee",
+        "country": "UNITED STATES OF AMERICA"
+      }
+    }
+  ]
+}
