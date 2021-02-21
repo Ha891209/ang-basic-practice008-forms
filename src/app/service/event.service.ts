@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, of } from 'rxjs';
+import { tap } from 'rxjs/operators';
 import { Event } from '../model/event';
 
 @Injectable({
@@ -24,11 +25,23 @@ export class EventService {
   }
 
   update(event: Event): Observable<Event> {
-    return this.http.patch<Event>(`${this.serverUrl}/${event.id}`, event);
+    return this.http.patch<Event>(
+      `${this.serverUrl}/${event.id}`,
+      event
+    ).pipe(
+      tap(() => {
+        this.getAll();
+      })
+    );
   }
 
-  create(event: Event): Observable<Event> {
-    return this.http.post<Event>(this.serverUrl, event);
+  create(event: Event): void {
+    this.http.post<Event>(
+      `${this.serverUrl}`,
+      event
+    ).subscribe(
+      () => this.getAll()
+    );
   }
 
   remove(id: number): Observable<Event> {

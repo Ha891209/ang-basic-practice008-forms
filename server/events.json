@@ -1,17 +1,6 @@
 {
   "list": [
     {
-      "id": 1,
-      "name": "Angular Connected",
-      "date": "9/26/2036",
-      "time": "10am",
-      "location": {
-        "address": "1 London Rd",
-        "city": "London",
-        "country": "ENGLAND"
-      }
-    },
-    {
       "id": 2,
       "name": "Angular-Netherland",
       "date": "4/15/2037",
